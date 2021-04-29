@@ -1,0 +1,11 @@
+{
+  "name": "p3_hatton_paul-adrien",
+  "version": "1.0.0",
+  "description": "Projet 3 OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed"
+  },
+  "author": "Hatton Paul-Adrien",
+  "license": "ISC"
+}
