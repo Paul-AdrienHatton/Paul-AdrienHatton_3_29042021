@@ -17,13 +17,11 @@
 </head>
 
 <body>
-    <!--Loader-->
-    <div class="loader"></div>
 
     <!--Header-->
     <header class="header">
         <a href="./index.html">
-        <i class="fas fa-arrow-left"></i>
+        <i class="header__icon fas fa-arrow-left"></i>
         </a>
         <h1>Ohmyfood</h1>
         <div class="header__img">
@@ -35,40 +33,41 @@
     </header>
 
     <!--Section principale-->
-    <main class="card">
-            <h2 class="card__title">La palette du goût</h2>
-            <div class="card__heart">
-                <i class="far fa-heart"></i>
+    <div class="container">
+        <header class="menu-header">
+            <h2 class="menu__title">La palette du goût</h2>
+            <div class="menu__btn">
+                <i class="menu__heart menu__heart--full far fa-heart"></i>
+                <i class="menu__heart menu__heart--empty far fa-heart"></i>
             </div>  
-            <div class="card__content">
-                
-                
-    </main>
+        </header>
+
+        <section>
+
+        </section>
+
+        <div class="btn">
+            <button class="btn__order">Commander</button>
+        </div>                
+
+    </div>
     <!--Footer-->
     <footer class="footer">
-        <h1>ohmyfood</h1>
-        <ul>
-            <li>
-                <p>
-                    <i class="fas fa-utensils"></i>
+        <h1 class="footer__logo">ohmyfood</h1>
+        <ul class="footer__link">
+            <li class="footer__elmt">
+                    <i class="footer__icon fas fa-utensils"></i>
                     Proposer un restaurant
-                </p>
             </li>
-            <li>
-                <p>
-                    <i class="fas fa-hands-helping"></i>
+            <li class="footer__elmt">
+                    <i class="footer__icon fas fa-hands-helping"></i>
                     Devenir partenaire
-                </p>
             </li>
-            <li>
-                <p>
+            <li class="footer__elmt">
                      Mentions légales
-                </p>
             </li>
-            <li>
-                <p>
-                    <address><a href="mailto:#">Contact</a></address>
-                </p>
+            <li class="footer__elmt">
+                    <address><a class="footer__link" href="mailto:#">Contact</a></address>
             </li>
         </ul>
     </footer>
