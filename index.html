@@ -28,7 +28,7 @@
     <!--Section localisation-->
     <section class="localisation">
         <div class="localisation__logo">
-            <i class="fas fa-map-marker-alt"></i>
+            <i class="location__icon fas fa-map-marker-alt"></i>
             <p class="localisation__text">Paris, Belleville</p>
         </div>
     </section>
@@ -48,17 +48,17 @@
         <section class="operation">
             <h2 class="operation__title">Fonctionnement</h2>
             <ul class="operation__content">
-                <li>
+                <li class="operation__steps">
                     <span class="operation__number">1</span>
                     <i class="operation__icon fas fa-mobile-alt"></i>
                     Choississez un restaurant
                 </li>
-                <li>
+                <li class="operation__steps">
                     <span class="operation__number">2</span>
                     <i class="operation__icon fas fa-list-ul"></i>
                     Composez votre menu
                 </li>
-                <li>
+                <li class="operation__steps">
                     <span class="operation__number">3</span>
                     <i class="operation__icon fas fa-store"></i>
                     Dégustez au restaurant
@@ -70,6 +70,7 @@
         <section class="restaurants">
             <h2 class="restaurants__title">Restaurants</h2>
             <div class="restaurants__container">
+                
                 <!--Article  restaurant-->
                 <a href="./la-palette-du-goût.html">
                     <article class="article">
@@ -174,29 +175,23 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-        <h1>ohmyfood</h1>
-        <ul>
-            <li>
-                <p>
+        <h1 class="footer__logo">ohmyfood</h1>
+        <ul class="footer__links">
+            <li class="footer__elmt">
                     <i class="footer__icon fas fa-utensils"></i>
-                    Proposer un restaurant
-                </p>
+                    <a class="footer__link" href="#">Proposer un restaurant</a>
             </li>
-            <li>
-                <p>
+            <li class="footer__elmt">
                     <i class="footer__icon fas fa-hands-helping"></i>
-                    Devenir partenaire
-                </p>
+                    <a class="footer__link" href="#">Devenir partenaire</a>
             </li>
-            <li>
-                <p>
-                     Mentions légales
-                </p>
+            <li class="footer__elmt">
+                <a class="footer__link" href="#">Mentions légales</a>
             </li>
-            <li>
-                <p>
-                    <address><a href="mailto:#">Contact</a></address>
-                </p>
+            <li class="footer__elmt">
+                    <address>
+                        <a class="footer__link" href="mailto:#">Contact</a>
+                    </address>
             </li>
         </ul>
     </footer>
