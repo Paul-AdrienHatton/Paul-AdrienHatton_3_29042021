@@ -1,0 +1,19 @@
+.header {
+     height: 60px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    &__title {
+         display: flex;
+         align-items: center;
+    }
+}
+
+.banners__img img{
+     object-fit: cover;
+     width: 100%;
+     height: 250px;
+   }
+
+
+    

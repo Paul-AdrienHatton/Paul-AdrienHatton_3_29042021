@@ -8,7 +8,7 @@
     <meta name="description" substance="Commandez vos repas en ligne en un clique.
     Fini le temps d'attente, composez maintenant vos menus gastronomiques parmi 
     une sélection des meilleurs restaurants de la capital. " />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="public/css/style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" />
     <link rel="icon" type="images" href="images/logo/favicon.ico" />
@@ -23,20 +23,22 @@
         <a href="./index.html">
             <i class="header__icon fas fa-arrow-left"></i>
         </a>
-        <h1>Ohmyfood</h1>
-        <div class="header__img">
-            <img src="./images/medium/la_palette_du_gout.jpg" alt="Un plat de la palette du go&ucirc;t" />
-        </div>
+        <h1 class="header__title">Ohmyfood</h1>
     </header>
 
+    <section class="banners">
+    <div class="banners__img">
+        <img src="./images/medium/la_palette_du_gout.jpg" alt="Un plat de la palette du go&ucirc;t" />
+    </div>
+    </section>
     <!--Section principale-->
     <main class="restaurants">
         
         <section class="headermenu">
             <h2 class="headermenu__title">La palette du go&ucirc;t</h2>
             <div class="headermenu__btn">
-                <i class="headermenu__heart headermenu__heart--full far fa-heart"></i>
-                <i class="headermenu__heart headermenu__heart--empty far fa-heart"></i>
+                <i class="headermenu__heart header__heart--full far fa-heart"></i>
+                <i class="headermenu__heart header__heart--empty far fa-heart"></i>
             </div>
         </section>
 
