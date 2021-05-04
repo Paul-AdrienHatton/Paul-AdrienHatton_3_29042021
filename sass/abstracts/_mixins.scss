@@ -1,4 +1,4 @@
-@mixin menu-header {
+@mixin menu-flex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-  @mixin btn-title {
+@mixin btn-title {
     background-image: $linear-gradient;
     border: 1px solid transparent;
     border-radius: 30px;
@@ -22,5 +22,19 @@
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
     cursor: pointer;
   }
+
+@mixin flag {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 10px;
+    right: 20px;
+    width: 80px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 2px 2px 2px 2px;
+    color: hsla(165, 77, 32);
+}
 
   

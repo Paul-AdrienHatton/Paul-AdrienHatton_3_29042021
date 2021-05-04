@@ -16,7 +16,6 @@
     }
 }
 
-
 .banners__img img{
      object-fit: cover;
      width: 100%;
@@ -25,7 +24,7 @@
 
    .locolisation {
      background: $bg-header;
-     @include menu-header;
+     @include menu-flex;
    }
   
 

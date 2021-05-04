@@ -1,0 +1,23 @@
+.article {
+    width: 335px;
+    height: 251px;
+    background: white;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+
+    &__img {
+        height: 174px;
+        overflow: hidden;
+        border-radius:15px 15px 0 0 ;
+    }
+
+    &__flag {
+      @include flag;
+       background: $bg-flag;
+    }
+
+    &__description {
+        margin: 10px;
+    }
+
+}
