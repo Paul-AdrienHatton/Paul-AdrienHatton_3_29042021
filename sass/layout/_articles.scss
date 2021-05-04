@@ -17,7 +17,15 @@
     }
 
     &__description {
+        position: relative;
         margin: 10px;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 23px;
+        right: 23px;
+        height: 23px;
     }
 
 }
