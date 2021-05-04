@@ -1,3 +1,21 @@
-@import "./base/_reset", "./base/_typography";
-@import "./layout/_header", "./layout/_localisation";
-@import "./utils/mixins", "./utils/functions", "./utils/variables", "./utils/animations", "./utils/helpers";
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/animations';
+
+@import
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/grid',
+  'layout/header',
+  'layout/footer';
+ 
+@import
+  'components/buttons';
+
+@import
+  'pages/home',
+  'pages/menu';

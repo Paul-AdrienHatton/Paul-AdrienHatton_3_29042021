@@ -1,0 +1,6 @@
+.title__btn {
+    @include btn-title;
+    &:hover {
+      filter: brightness(110%);
+    }
+  }
