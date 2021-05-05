@@ -1,3 +1,15 @@
-.article__icon {
-    font-size: 20px;
-}
+.article__icon--full {
+    cursor: pointer;
+    font-size: 23px;
+    position: absolute;
+    left: 270px;
+    bottom: 10px;
+    
+    &:hover {
+      color: blueviolet;
+      animation: ease-in 2s ease-in-out;
+      background-clip: text;
+      -webkit-background-clip: text;
+      font-weight: bold;
+    }
+  }

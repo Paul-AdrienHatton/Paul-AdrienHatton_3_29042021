@@ -4,6 +4,8 @@
     font-size: 14px;
     font-weight: 500;
     width: 100%;
+    position: relative;
+    z-index: 2;
 
         &__logo {
             display: inline-block;
@@ -37,40 +39,15 @@
 
     height: 390px;
 
-    &__title {
-        margin: 50px 0 15px 20px;
-    }
-
-    &__content {
-        @include flex-wrap;
-    }
-
-    &__steps {
-        display: inline-block;
-        height: 75px;
-        width: 321px;
-        background: $bg-main;
-        margin-top: 20px;
-        padding: 25px;
-        border-radius: 20px 20px 20px 20px;
-        font-size: 16px;
-        font-weight: 500;
-        box-shadow: $box-shadow;
-
-        &:hover {
-            background-color: lighten($color-primary, 35%);
+        &__title {
+             margin: 50px 0 15px 20px;
         }
-    }
 
-    &__number {
-    @include step-number;
-    }
-
-    &__icon {
-        color: $icon-function;
-        @include icon;
-    }
+        &__content {
+          @include flex-wrap;
+        }
 }
+
 
 
 .restaurants {
@@ -80,4 +57,3 @@
         padding: 60px 0 0 20px;
     }
 }
-
