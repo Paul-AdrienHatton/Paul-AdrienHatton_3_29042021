@@ -1,5 +1,6 @@
 .title__btn {
     @include btn-title;
+    box-shadow: $box-shadow;
   
     &:hover {
     opacity: 0.7;

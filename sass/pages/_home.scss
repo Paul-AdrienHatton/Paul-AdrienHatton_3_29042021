@@ -1,7 +1,7 @@
 .localisation {
     @include flex;
     background-color: $bg-header;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 500;
     width: 100%;
 
@@ -16,10 +16,21 @@
   }
 
 .title {
-    @include flex;
+    @include flex-wrap;
     text-align: center;
     height: 287px;
     background-color: $bg-main;
+    padding: 40px 30px 50px 30px;
+
+    &__main {
+        padding: 0 15px;
+    }
+
+    &__sub {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
 }
 
 .operation {
@@ -31,22 +42,23 @@
     }
 
     &__content {
-        @include flex;
+        @include flex-wrap;
     }
 
     &__steps {
+        display: inline-block;
         height: 75px;
         width: 321px;
         background: $bg-main;
         margin-top: 20px;
-        padding: 30px;
+        padding: 25px;
         border-radius: 20px 20px 20px 20px;
-        font-size: 14px;
-        font-weight: 600;
-        box-shadow: 0px 4px 6px 4px rgba(53, 39, 39, 0.08), 0px 2px 4px 2px rgba(53, 39, 39, 0.08);
+        font-size: 16px;
+        font-weight: 500;
+        box-shadow: $box-shadow;
 
         &:hover {
-            background-color: lighten($color-primary, 35);
+            background-color: lighten($color-primary, 35%);
         }
     }
 
@@ -57,8 +69,6 @@
     &__icon {
         color: $icon-function;
         @include icon;
-        font-size: 16px;
-
     }
 }
 
@@ -70,3 +80,4 @@
         padding: 60px 0 0 20px;
     }
 }
+
