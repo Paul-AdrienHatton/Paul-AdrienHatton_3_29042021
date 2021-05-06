@@ -12,7 +12,7 @@
     background:$linear-gradient;
     background:-webkit-linear-gradient($linear-gradient);
     -webkit-background-clip: text;
-    background-clip: text;
+    color: transparent;
     -webkit-text-fill-color:transparent;
     font-weight: bold;
   }
@@ -32,7 +32,6 @@
     background:$linear-gradient;
     background:-webkit-linear-gradient($linear-gradient);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color:transparent;
     font-weight: bold;
   }
