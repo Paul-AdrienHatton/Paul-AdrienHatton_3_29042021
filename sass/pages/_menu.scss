@@ -7,7 +7,7 @@
 .menus {
   &__title {
     font-size: 16px;
-      
+
     ::after {
       content: "";
       display: block;
@@ -33,6 +33,7 @@
 }
 
 .menu-substance { 
+  overflow: hidden;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -50,11 +51,8 @@
 
   &__price {
     font-weight: bold;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-left: 15px;
-    margin:20px -40px 0 0;
+    padding-left: 10px;
+    margin:25px 0px 0 30px;
   }
 
   &__title {
@@ -72,40 +70,37 @@
     text-overflow: ellipsis;
     overflow: hidden;
   }
+
   &__check{
     background-color: $color-tertiary;
     opacity: 0;
+    margin-right:-40px;
     width: 58px;
     height: 68px;
-    border-radius: 0 15px 15px 0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    @include flex;
+    transition-timing-function: ease-in-out;
+    transition: 0.8s;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
   }
 
   &__wrapicon {
     background-color: white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    @include flex;
     border-radius: 50%;
     height: 20px;
     width: 20px;
-
-    &:hover {
-    transform: rotate(360deg);
-    transition-duration: 0.8s;}
-    
   }
-    &__icon {
-      color: $color-tertiary;
-    }
 
-    &:hover &__check {
-      margin-right: -1px;
-      opacity: 1;
-    }
-  
+  &__icon {
+    color: $color-tertiary;
+  }
+
+  &:hover &__check {
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
 }
 
 .headermenu h2 {
