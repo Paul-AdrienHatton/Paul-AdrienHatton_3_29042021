@@ -13,7 +13,9 @@
         
         &__text {
             display: inline-block;
-            margin: 15px
+            margin: 15px;
+            font-size: 16px;
+            font-weight: 400;
         } 
   }
 
@@ -47,8 +49,6 @@
           @include flex-wrap;
         }
 }
-
-
 
 .restaurants {
     background-color: $bg-main;

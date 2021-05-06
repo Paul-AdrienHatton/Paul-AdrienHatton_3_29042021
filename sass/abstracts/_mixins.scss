@@ -21,6 +21,9 @@
     color: #fff;
     box-shadow: $box-shadow;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
   }
 
 @mixin flag {

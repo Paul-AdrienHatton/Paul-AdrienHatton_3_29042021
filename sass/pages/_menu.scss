@@ -9,17 +9,77 @@
   border-radius: 40px 40px 0 0;
   position: relative;
   top: -40px;
-  padding:40px 0 0 20px
+  padding: 30px 0 0 0;
 }
 
 .restaurants-menus {
   @include flex-wrap;
+  padding-bottom: 50px;
 }
 
 .menu-substance { 
-  @include flex;
+  display: flex;
+  align-items: center;
   background-color: #fff;
+  box-shadow: $box-shadow;
   width: 350px;
   height: 68px;
   border-radius: 15px;
+
+  &__header {
+    margin: 10px;
+  }
+
+  &__price {
+   margin-top: 25px;
+   font-weight: bold;
+  }
+
+  &__description {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  &__check{
+    color:white;
+    border-radius: 50%;
+    align-content: center;
+  }
+
+  &__icon {
+    width: 60px;
+    height: 68px;
+    border-radius: 0 15px 15px 0;
+    background-color: $color-tertiary;
+    opacity: 0;
+    align-content: flex-end;
+
+      &:hover {
+        opacity: 1;
+        -webkit-animation: check 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+        animation: check 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+      }
+  }
 }
+
+.headermenu h2 {
+  font-family: Shrikhand, Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.menus {
+  margin-bottom: 30px;
+
+  &__title {
+    margin-top: 20px;
+  }
+}
+
+.command {
+  @include flex;
+}
+

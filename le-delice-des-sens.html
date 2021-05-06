@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" substance="IE=edge" />
-    <meta name="viewport" substance="width=device-width, initial-scale=1.0" />
-    <meta name="description" substance="Commandez vos repas en ligne en un clique.
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Commandez vos repas en ligne en un clique.
     Fini le temps d'attente, composez maintenant vos menus gastronomiques parmi 
     une sélection des meilleurs restaurants de la capital. " />
     <link rel="stylesheet" href="public/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" />
-    <link rel="icon" type="images" href="images/logo/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+     rel="stylesheet">    
+    <link rel="icon"  href="images/logo/favicon.ico"/>
     <script src="https://kit.fontawesome.com/e44ac6fca0.js" crossorigin="anonymous"></script>
     <title>Le d&eacute;lice des sens - ohmyfood!</title>
 </head>
@@ -26,19 +29,18 @@
         <h1 class="header__title">Ohmyfood</h1>
     </header>
 
-    <section class="banners">
+    <div class="banners">
     <div class="banners__img">
         <img src="./images/medium/la_note_enchantee.jpg" alt="Un plat de la note enchant&eacute;e" />
     </div>
-    </section>
+    </div>
     <!--Section principale-->
     <main class="container-menus">
         
         <section class="headermenu">
             <h2 class="headermenu__title">Le d&eacute;lices des sens</h2>
             <div class="headermenu__btn">
-                <i class="headermenu__heart headermenu__heart--full far fa-heart"></i>
-                <i class="headermenu__heart headermenu__heart--empty far fa-heart"></i>
+                <i class="headermenu__btn--full far fa-heart"></i>
             </div>
         </section>
 
@@ -125,7 +127,7 @@
                         </div>
                     </div>
                 </section>
-
+            </div>
             <!--Section Desserts-->
             <div class="menus">
                 <h3 class="menus__title">Desserts</h3>
@@ -168,11 +170,14 @@
                 </section>
             </div>
                 
-                <div class="btn">
-                    <a href="#">
-                        <button class="btn__order">Commander</button>
-                    </a>
-                </div>
+            <div class="command">
+                <a href="#">
+                    <div class="btn">Commander</div>
+                </a>
+            </div>
+
+        </div>
+
     </main>
 
     <!--Footer-->
