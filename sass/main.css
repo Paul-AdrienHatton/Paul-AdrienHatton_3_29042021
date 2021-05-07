@@ -149,27 +149,27 @@
 }
 
 @-webkit-keyframes substancetransition {
-  0% {
-    -webkit-transform: scale(0) translateY(0px);
-            transform: scale(0) translateY(0px);
-    opacity: 1;
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
   }
-  100% {
-    -webkit-transform: scale(1) translateY(3px);
-            transform: scale(1) translateY(3px);
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
   }
 }
 
 @keyframes substancetransition {
-  0% {
-    -webkit-transform: scale(0) translateY(0px);
-            transform: scale(0) translateY(0px);
-    opacity: 1;
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
   }
-  100% {
-    -webkit-transform: scale(1) translateY(3px);
-            transform: scale(1) translateY(3px);
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
   }
 }
@@ -690,8 +690,8 @@ body, html {
 }
 
 .menu-substance {
-  -webkit-animation: substancetransition 0.9s cubic-bezier(0.76, 0.05, 0.72, 0.87);
-          animation: substancetransition 0.9s cubic-bezier(0.76, 0.05, 0.72, 0.87);
+  -webkit-animation: substancetransition 1s ease backwards;
+          animation: substancetransition 1s ease backwards;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -758,8 +758,6 @@ body, html {
   transition: 0.8s;
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
-  -webkit-transition-timing-function: ease;
-          transition-timing-function: ease;
 }
 
 .menu-substance__wrapicon {
@@ -825,47 +823,52 @@ body, html {
 }
 
 .delay-0 {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
 }
 
 .delay-1 {
-  -webkit-animation-delay: 0.11111s;
-          animation-delay: 0.11111s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
 }
 
 .delay-2 {
-  -webkit-animation-delay: 0.22222s;
-          animation-delay: 0.22222s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
 }
 
 .delay-3 {
-  -webkit-animation-delay: 0.33333s;
-          animation-delay: 0.33333s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .delay-4 {
-  -webkit-animation-delay: 0.44444s;
-          animation-delay: 0.44444s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 .delay-5 {
-  -webkit-animation-delay: 0.55556s;
-          animation-delay: 0.55556s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .delay-6 {
-  -webkit-animation-delay: 0.66667s;
-          animation-delay: 0.66667s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 .delay-7 {
-  -webkit-animation-delay: 0.77778s;
-          animation-delay: 0.77778s;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
 }
 
 .delay-8 {
-  -webkit-animation-delay: 0.88889s;
-          animation-delay: 0.88889s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.delay-9 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
 }
 /*# sourceMappingURL=main.css.map */
