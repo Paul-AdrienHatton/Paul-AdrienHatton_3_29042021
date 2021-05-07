@@ -33,6 +33,7 @@
 }
 
 .menu-substance { 
+  animation: substancetransition .9s cubic-bezier(.76,.05,.72,.87);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -124,3 +125,9 @@
   @include flex;
 }
 
+@for $i from 0 to 9 {
+  .delay-#{$i} {
+   
+    animation-delay:  #{$i/9}s;
+  }
+}
