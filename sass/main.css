@@ -24,7 +24,7 @@
 
 .loader__title {
   font-family: Shrikhand, Roboto, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   padding-right: 20px;
 }
 
@@ -152,6 +152,8 @@
   from {
     -webkit-transform: scale(0);
             transform: scale(0);
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
     opacity: 0;
   }
   to {
@@ -165,6 +167,8 @@
   from {
     -webkit-transform: scale(0);
             transform: scale(0);
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
     opacity: 0;
   }
   to {
@@ -690,8 +694,8 @@ body, html {
 }
 
 .menu-substance {
-  -webkit-animation: substancetransition 1s ease backwards;
-          animation: substancetransition 1s ease backwards;
+  -webkit-animation: substancetransition 1.3s cubic-bezier(0.47, 0.19, 0.22, 0.86) backwards;
+          animation: substancetransition 1.3s cubic-bezier(0.47, 0.19, 0.22, 0.86) backwards;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,7 +736,7 @@ body, html {
 .menu-substance__description {
   margin: 0 0 0 10px;
   white-space: nowrap;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14px;
   text-overflow: ellipsis;
   overflow: hidden;
