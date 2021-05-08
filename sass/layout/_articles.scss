@@ -1,12 +1,10 @@
 .article {
     width: 335px;
     height: 251px;
-    background: white;
+    background: #fff;
     border-radius: 15px 15px 15px 15px;
     position: relative;
-    box-shadow: $box-shadow-article;
-    -moz-box-shadow: $box-shadow-article;
-    -webkit-box-shadow: $box-shadow-article;
+    box-shadow: $box-shadow;
 
     &__img {
         width: 335px;
@@ -30,7 +28,7 @@
     }
 
     &:hover {
-        transform: scale(1.06);
+        box-shadow: $box-shadow-article;
         @include transition;
     }
 

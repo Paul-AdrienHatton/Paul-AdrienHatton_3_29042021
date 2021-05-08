@@ -2,8 +2,6 @@
   &__btn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
-    border: transparent 0px solid;
     padding: 0;
     display:flex;
     align-items:center;
@@ -13,11 +11,7 @@
     right: 20px;
     top: 35px;
     background-color: black;
-  
-    &:hover::before {
-      opacity: 1;
-    }
-    
+      
     &::before {
       opacity: 0;
       transition: 0.5s;
@@ -28,6 +22,10 @@
       height: 100%;
       width: 100%;
       background:$linear-gradient;
+    }
+
+    &:hover::before {
+      opacity: 1;
     }
   }
 
@@ -58,22 +56,16 @@
   &__btn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
-    border: transparent 0px solid;
     padding: 0;
     display:flex;
     align-items:center;
     justify-content:center;
     cursor: pointer;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+    position:relative;
+    left: 265px;
+    top: -40px;
     background-color: black;
-  
-    &:hover::before {
-      opacity: 1;
-    }
-    
+        
     &::before {
       opacity: 0;
       transition: 0.5s;
@@ -85,9 +77,13 @@
       width: 100%;
       background:$linear-gradient;
     }
+
+    &:hover::before {
+      opacity: 1;
+    }
   }
 
-  &__icon {
+  &__like {
     transition-duration: .3s;
     background-color: #fff;
     position: absolute;
@@ -102,7 +98,7 @@
   }
 
   &__btn:hover {
-    .article__icon {
+    .article__like {
       &--empty {
         opacity: 0;
       }

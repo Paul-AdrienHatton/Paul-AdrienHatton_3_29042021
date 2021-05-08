@@ -8,7 +8,7 @@
   &__title {
     font-size: 16px;
 
-    ::after {
+   &::after {
       content: "";
       display: block;
       width: 40px;
@@ -27,10 +27,6 @@
   padding: 30px 0 0 0;
 }
 
-.restaurants-menus {
-  @include flex-wrap;
-  padding-bottom: 50px;
-}
 
 .menu-substance { 
   animation: substancetransition 1.3s cubic-bezier(.47,.19,.22,.86) backwards;

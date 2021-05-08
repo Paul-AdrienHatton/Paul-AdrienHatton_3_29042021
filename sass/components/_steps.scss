@@ -1,7 +1,11 @@
 .operation {
+    height: 390px;
 
     &__number {
         @include step-number;
+    }
+    &__title {
+        margin: 50px 0 15px 20px;
     }
     &__steps {
         display: inline-block;
@@ -29,6 +33,12 @@
         &:hover {
             color: $color-primary;
         }
-    }
-    
+    }    
+}
+
+@media screen and (min-width: 768px) 
+and (max-width: 1024px) {
+    .operation {
+        height: 300px;
+        }        
 }

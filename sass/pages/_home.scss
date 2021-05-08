@@ -19,36 +19,6 @@
         } 
   }
 
-.title {
-    @include flex-wrap;
-    text-align: center;
-    height: 287px;
-    background-color: $bg-main;
-    padding: 40px 30px 50px 30px;
-
-    &__main {
-        padding: 0 15px;
-    }
-
-    &__sub {
-        font-size: 18px;
-        font-weight: 300;
-        margin-bottom: 20px;
-    }
-}
-
-.operation {
-    height: 390px;
-
-        &__title {
-             margin: 50px 0 15px 20px;
-        }
-
-        &__content {
-          @include flex-wrap;
-        }
-}
-
 .restaurants {
     background-color: $bg-main;
 

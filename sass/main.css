@@ -397,8 +397,6 @@ body, html {
 .headermenu__btn {
   height: 40px;
   width: 40px;
-  background-color: transparent;
-  border: transparent 0px solid;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,10 +458,8 @@ body, html {
 }
 
 .article__btn {
-  height: 40px;
-  width: 40px;
-  background-color: transparent;
-  border: transparent 0px solid;
+  height: 34px;
+  width: 34px;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
