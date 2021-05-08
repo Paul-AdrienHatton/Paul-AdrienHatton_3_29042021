@@ -42,3 +42,12 @@ and (max-width: 1024px) {
         height: 300px;
         }        
 }
+
+@media screen and (min-width: 1024px) 
+and (max-width: 1920px) {
+    .operation {
+        &__steps {
+            width: 500px;
+        }
+    }
+}

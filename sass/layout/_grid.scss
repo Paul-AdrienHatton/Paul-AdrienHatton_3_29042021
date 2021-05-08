@@ -35,6 +35,40 @@ and (max-width: 1024px) {
     }
 }
 
+@media screen and (min-width: 1024px) 
+and (max-width: 1366px) {
+    .restaurants__container {
+        display: grid;
+        grid-template-columns: 1fr 1fR;
+        grid-row-gap: 30px;
+    }
+    .article {
+        width: 380px;
+        height: 300px;
+        &__img {
+            width: 380px;
+            height: 219px;
+        }
+    }
+}
+
+@media screen and (min-width: 1366px) 
+and (max-width: 1920px) {
+    .restaurants__container {
+        display: grid;
+        grid-template-columns: 1fr 1fR;
+        grid-row-gap: 30px;
+    }
+    .article {
+        width: 500px;
+        height: 300px;
+        &__img {
+            width: 500px;
+            height: 219px;
+        }
+    }
+
+}
 
 .menus {
     display: grid;
@@ -50,7 +84,7 @@ and (max-width: 1024px) {
 }
 
 @media screen and (min-width: 768px) 
-and (max-width: 1024px) {
+and (max-width: 1920px) {
     .restaurants-menus {
         display: grid;
         grid-template-columns: 1fr 1FR;
@@ -72,5 +106,23 @@ and (max-width: 1024px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
+    }
+}
+
+@media screen and (min-width: 1024px) 
+and (max-width: 1920px) {
+    .operation {
+        &__title {
+            text-align: center;
+            font-size: 40px;
+        }
+        &__content {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+    }
+    .restaurants__title {
+        text-align: center;
+        font-size: 40px;
     }
 }
