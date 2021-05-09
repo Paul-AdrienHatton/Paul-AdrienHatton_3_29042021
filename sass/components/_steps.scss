@@ -10,7 +10,7 @@
     &__steps {
         display: inline-block;
         height: 75px;
-        width: 321px;
+        width: 300px;
         background: $bg-main;
         margin-top: 20px;
         padding: 25px;
@@ -47,7 +47,11 @@ and (max-width: 1024px) {
 and (max-width: 1920px) {
     .operation {
         &__steps {
-            width: 500px;
+            width: 400px;
         }
+        &__number {
+            margin-right: 50px;
+        }
+       
     }
 }
