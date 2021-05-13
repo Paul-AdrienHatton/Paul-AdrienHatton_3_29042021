@@ -1,7 +1,7 @@
 {
   "name": "p3_hatton_paul-adrien",
   "version": "1.0.0",
-  "description": "Projet 3 OpenClassrooms",
+  "description": "Projet 3 OpenClassrooms : Dynamisez une page web avec des animations CSS",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed",
@@ -11,5 +11,4 @@
   "license": "ISC",
   "browserslist": "last 4 versions",
   "homepage": "https://paul-adrienhatton.github.io/Paul-AdrienHatton_3_29042021/"
-
 }
