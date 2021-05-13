@@ -6,33 +6,26 @@
     position: relative;
     box-shadow: $box-shadow; 
     overflow: hidden;
-
-    &__img {
-        width: 335px;
-        height: 174px;
-        overflow: hidden;
-        border-radius:15px 15px 0 0; 
-        position: relative;
-    
-    }
-
-    &__flag {
-      @include flag;
-       background: $bg-flag;
-    }
-
-    &__description {
-        position: relative;
-        margin: 15px;
-    }
-
-    &__sub {
-        margin-top: 5px;
-    }
-
-    &:hover {
-        box-shadow: $box-shadow-article;
-        @include transition;
-    }
-
+        &__img {
+            width: 335px;
+            height: 174px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+        &__flag {
+            @include flag;
+            background: $bg-flag;
+        }
+        &__description {
+            position: relative;
+            margin: 15px;
+        }
+        &__sub {
+            margin-top: 5px;
+        }
+        &:hover {
+            box-shadow: $box-shadow-article;
+            @include transition;
+        }
 }

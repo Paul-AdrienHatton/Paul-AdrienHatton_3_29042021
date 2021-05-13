@@ -1,6 +1,5 @@
 .operation {
     height: 390px;
-
     &__number {
         @include step-number;
     }
@@ -20,19 +19,19 @@
         box-shadow: $box-shadow;
         -moz-box-shadow: $box-shadow;
         -webkit-box-shadow: $box-shadow;
-        &:hover {
-            background-color: lighten($color-primary, 35%);
-            transform: scale(1.06);
-            -webkit-transition: all .5s 0s cubic-bezier(.65,.05,.45,1.17);
-            -moz-transition: all .5s 0s cubic-bezier(.65,.05,.45,1.17);
-            transition: all .5s 0s cubic-bezier(.65,.05,.45,1.17);
-        }
+            &:hover {
+                background-color: lighten($color-primary, 35%);
+                transform: scale(1.06);
+                -webkit-transition: all .5s 0s cubic-bezier(.65,.05,.45,1.17);
+                -moz-transition: all .5s 0s cubic-bezier(.65,.05,.45,1.17);
+                transition: all .5s 0s cubic-bezier(.65,.05,.45,1.17);
+            }
     }
     &__icon {
         @include icon;
-        &:hover {
+            &:hover {
             color: $color-primary;
-        }
+            }
     }    
 }
 

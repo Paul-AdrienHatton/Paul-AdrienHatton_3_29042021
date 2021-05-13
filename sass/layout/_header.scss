@@ -1,22 +1,20 @@
 .header {
-     height: 60px;
-     @include flex;
-     box-shadow: $box-shadow-header;
-     -moz-box-shadow: $box-shadow-header;
-     -webkit-box-shadow: $box-shadow-header;
-     position: relative;
-     z-index: 3;
-
-    &__title {
-        @include flex;
-    }
-
-    &__icon {
-         position: absolute;
-         left: 20px;
-         top: 20px;
-         font-size: 16px;
-    }
+    height: 60px;
+    @include flex;
+    box-shadow: $box-shadow-header;
+    -moz-box-shadow: $box-shadow-header;
+    -webkit-box-shadow: $box-shadow-header;
+    position: relative;
+    z-index: 3;
+        &__title {
+            @include flex;
+        }
+        &__icon {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            font-size: 16px;
+        }
 }
 
 

@@ -7,16 +7,14 @@
     height: 287px;
     background-color: $bg-main;
     padding: 40px 30px 50px 30px;
-
-    &__main {
-        padding: 0 15px;
-    }
-
-    &__sub {
-        font-size: 18px;
-        font-weight: 300;
-        margin-bottom: 20px;
-    }
+        &__main {
+            padding: 0 15px;
+        }
+        &__sub {
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
 }
 
 .restaurants__container {
@@ -45,10 +43,10 @@ and (max-width: 1366px) {
     .article {
         width: 380px;
         height: 300px;
-        &__img {
-            width: 380px;
-            height: 219px;
-        }
+            &__img {
+                width: 380px;
+                height: 219px;
+            }
     }
 }
 
@@ -62,10 +60,10 @@ and (max-width: 1920px) {
     .article {
         width: 500px;
         height: 300px;
-        &__img {
-            width: 500px;
-            height: 219px;
-        }
+            &__img {
+                width: 500px;
+                height: 219px;
+            }
     }
 
 }
@@ -93,9 +91,9 @@ and (max-width: 1920px) {
 
 .operation {
         &__content {
-          display: grid;
-          grid-template-columns: 1FR;
-          justify-items: center;
+            display: grid;
+            grid-template-columns: 1FR;
+            justify-items: center;
         }      
 }
 

@@ -7,8 +7,7 @@
 .menus {
   &__title {
     font-size: 16px;
-
-   &::after {
+    &::after {
       content: "";
       display: block;
       width: 40px;
@@ -49,11 +48,11 @@
   &__price {
     font-weight: bold;
     padding-left: 10px;
-    margin:25px 20px 0 0px;
+    margin:25px 20px 0 0;
   }
 
   &__title {
-    margin: 0px 0px 5px 10px;
+    margin: 0 0 5px 10px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -98,7 +97,7 @@
   &:hover &__check {
     opacity: 1;
     margin-left: 5px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 }
 
@@ -117,16 +116,14 @@ and (max-width: 1920px) {
 }
 .menus {
   margin-bottom: 30px;
-
-  &__title {
-    margin-top: 20px;
-  }
+    &__title {
+      margin-top: 20px;
+    }
 }
 
 .command {
   @include flex;
 }
-
 
 @for $i from 0 through 9 {
     .delay-#{$i} {

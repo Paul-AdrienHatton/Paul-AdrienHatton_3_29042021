@@ -1,32 +1,28 @@
 .footer {
-    background: $bg-footer;
-    color: white;
-    display: block;
-    margin-top: -40px;
+  background: $bg-footer;
+  color: white;
+  display: block;
+  margin-top: -40px;
     
-    h1 {
-        font-size: 1.2rem;
-        font-weight: 500;
-        margin: 0 0 0 24px;
-        padding: 26px 0 26px 0;
-      }
-
-    ul {
-        li {
-          padding: 5px 0 5px 0;
-          margin: 0 0 0 24px;
-
-            &:hover {
-              opacity: 0.7;
-            }
-            
-            &:last-child {
-              padding-bottom: 37px;
-            }
-
-            a {
-              color: white;
-            }
+  h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 0 24px;
+  padding: 26px 0 26px 0;
+  }
+  ul {
+    li {
+      padding: 5px 0 5px 0;
+      margin: 0 0 0 24px;
+        &:hover {
+          opacity: 0.7;
+        }  
+        &:last-child {
+          padding-bottom: 37px;
+        }
+        a {
+          color: white;
         }
     }
+  }
 }

@@ -12,7 +12,7 @@
 
 @mixin btn-title {
     background-image: $linear-gradient;
-    border: 0px solid;
+    border: 0 solid;
     border-radius: 30px;
     height: 50px;
     width: 218px;
@@ -48,7 +48,7 @@
     border: 1px solid $color-primary;
     width: 25px;
     height: 25px;
-    padding: 3px 0px 2px 7px;
+    padding: 3px 0 2px 7px;
     position: relative;  
     right:40px;  
 }
