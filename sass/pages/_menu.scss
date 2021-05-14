@@ -29,6 +29,7 @@
 
 .menu-substance { 
   animation: substancetransition 1.3s cubic-bezier(.47,.19,.22,.86) backwards;
+  animation-direction: normal;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -67,7 +68,7 @@
     overflow: hidden;
   }
 
-  &__check{
+  &__check {
     background-color: $color-tertiary;
     margin-right:-58px;
     width: 58px;
@@ -78,27 +79,28 @@
     transition-duration: 0.8s;
   }
 
+  &:hover &__check {
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
   &__wrapicon {
     background-color: white;
     @include flex;
     border-radius: 50%;
     height: 20px;
     width: 20px;
-    &::before {
-      content: '✔';
-      color: $color-tertiary;
-      padding: 320px;
-    }
-    &:hover {
-      transform: rotate(720deg);
-      transition-duration: .6s;
-    }
-  }
-  &:hover &__check {
-    opacity: 1;
-    margin-left: 5px;
-    margin-right: 0;
-  }
+      &::before {
+        content: '✔';
+        color: $color-tertiary;
+        padding: 620px;
+      }
+      &:hover {
+        transform: rotate(720deg);
+        transition-duration: .6s;
+      }
+  }    
 }
 
 
@@ -114,6 +116,7 @@ and (max-width: 1920px) {
   font-weight: 500;
   padding-left: 20px;
 }
+
 .menus {
   margin-bottom: 30px;
     &__title {
