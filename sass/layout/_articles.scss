@@ -20,9 +20,12 @@
         &__description {
             position: relative;
             margin: 15px;
+            font-family: 'Roboto Medium';
         }
         &__sub {
             margin-top: 5px;
+            font-family: 'Roboto light';
+            font-weight: 100;
         }
         &:hover {
             box-shadow: $box-shadow-article;

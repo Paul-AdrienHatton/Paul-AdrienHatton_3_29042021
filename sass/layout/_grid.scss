@@ -8,11 +8,11 @@
     background-color: $bg-main;
     padding: 40px 30px 50px 30px;
         &__main {
-            padding: 0 15px;
+            padding: 0 20px;
         }
         &__sub {
             font-size: 18px;
-            font-weight: 300;
+            font-family: 'Roboto Light';
             margin-bottom: 20px;
         }
 }
