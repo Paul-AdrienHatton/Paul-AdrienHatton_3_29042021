@@ -71,6 +71,7 @@ and (max-width: 768px) {
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
+            
         }
     }
 }
@@ -89,14 +90,15 @@ and (max-width: 1366px) {
             width: 380px;
             height: 223px;
             overflow: hidden;
-            border-radius:15px 15px 0 0; 
-            position: relative;
+            border-radius:15px 15px 0 0;
         }
         &__img img {
-            width: 380px;
+            width: 100%;
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
+            top: 50%;
+            transform: translateY(-50%);
         }
     }
 }
@@ -123,9 +125,10 @@ and (max-width: 1920px) {
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
+            top: 50%;
+            transform: translateY(-50%);
         }
     }
-
 }
 
 .menus {
