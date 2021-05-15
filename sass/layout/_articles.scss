@@ -13,6 +13,12 @@
             border-radius:15px 15px 0 0; 
             position: relative;
         }
+        &__img img {
+            width: 335px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
         &__flag {
             @include flag;
             background: $bg-flag;

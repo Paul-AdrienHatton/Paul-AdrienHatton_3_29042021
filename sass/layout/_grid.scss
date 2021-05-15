@@ -33,6 +33,48 @@ and (max-width: 1024px) {
     }
 }
 
+@media screen and (min-width: 500px) 
+and (max-width: 600px) {
+    .article {
+        width: 420px;
+        height: 300px;
+        &__img {
+            width: 420px;
+            height: 223px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+        &__img img {
+            width: 420px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) 
+and (max-width: 768px) {
+    .article {
+        width: 500px;
+        height: 300px;
+        &__img {
+            width: 500px;
+            height: 223px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+        &__img img {
+            width: 500px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+    }
+}
+
 @media screen and (min-width: 1024px) 
 and (max-width: 1366px) {
     .restaurants__container {
@@ -43,10 +85,19 @@ and (max-width: 1366px) {
     .article {
         width: 380px;
         height: 300px;
-            &__img {
-                width: 380px;
-                height: 219px;
-            }
+        &__img {
+            width: 380px;
+            height: 223px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+        &__img img {
+            width: 380px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
     }
 }
 
@@ -58,12 +109,21 @@ and (max-width: 1920px) {
         grid-row-gap: 30px;
     }
     .article {
-        width: 500px;
+        width: 600px;
         height: 300px;
-            &__img {
-                width: 500px;
-                height: 219px;
-            }
+        &__img {
+            width: 600px;
+            height: 223px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
+        &__img img {
+            width: 600px;
+            overflow: hidden;
+            border-radius:15px 15px 0 0; 
+            position: relative;
+        }
     }
 
 }
