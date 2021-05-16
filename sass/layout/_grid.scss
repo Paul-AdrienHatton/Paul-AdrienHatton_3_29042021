@@ -36,17 +36,17 @@ and (max-width: 1024px) {
 @media screen and (min-width: 500px) 
 and (max-width: 600px) {
     .article {
-        width: 420px;
+        width: 320px;
         height: 300px;
         &__img {
-            width: 420px;
+            width: 320px;
             height: 223px;
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
         }
         &__img img {
-            width: 420px;
+            width: 320px;
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
@@ -57,17 +57,17 @@ and (max-width: 600px) {
 @media screen and (min-width: 600px) 
 and (max-width: 768px) {
     .article {
-        width: 500px;
+        width: 320px;
         height: 300px;
         &__img {
-            width: 500px;
+            width: 320px;
             height: 223px;
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
         }
         &__img img {
-            width: 500px;
+            width: 320px;
             overflow: hidden;
             border-radius:15px 15px 0 0; 
             position: relative;
